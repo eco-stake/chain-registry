@@ -18,7 +18,7 @@
     "fees": {
         "fee_tokens": [
             {
-                "denom": "ukyve",
+                "denom": "tkyve",
                 "fixed_min_gas_price": 0
             }
         ]
@@ -52,12 +52,20 @@
             {
                 "address": "https://rpc.korellia.kyve.network",
                 "provider": "kyve"
+            },
+            {
+                "address": "https://rpc-kyve-test.ecostake.com",
+                "provider": "ecostake"
             }
         ],
         "rest": [
             {
                 "address": "https://api.korellia.kyve.network",
                 "provider": "kyve"
+            },
+            {
+                "address": "https://rest-kyve-test.ecostake.com",
+                "provider": "ecostake"
             }
         ]
     },
