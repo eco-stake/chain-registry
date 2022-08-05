@@ -78,97 +78,108 @@
             {
                 "id": "ea9c1ac0e91639b2c7957d9604655e2263abe4e1",
                 "address": "185.181.103.136:26656"
+            },
+            {
+                "id": "d7f3d23cb733fad5e6d4a0c5ce92f87790f51960",
+                "address": "142.132.146.67:26797"
             }
         ]
     },
     "apis": {
-      "rpc": [
-        {
-          "address": "https://rpc-juno.whispernode.com",
-          "provider": " WhisperNode 🤐"
-        },
-        {
-          "address": "https://rpc-juno.itastakers.com",
-          "provider": "itastakers"
-        },
-        {
-          "address": "https://rpc-juno.ecostake.com",
-          "provider": "ecostake"
-        },
-        {
-          "address": "https://juno-rpc.polkachu.com",
-          "provider": "Polkachu"
-        },
-        {
-          "address": "https://rpc.juno.pupmos.network",
-          "provider": "PUPMØS"
-        },
-        {
-          "address": "https://rpc.junomint.com",
-          "provider": "EZStaking.io"
-        },
-        {
-          "address": "https://rpc-juno-ia.notional.ventures/",
-          "provider": "Notional"
-        }
-      ],
-      "rest": [
-        {
-          "address": "https://lcd-juno.whispernode.com",
-          "provider": " WhisperNode 🤐"
-        },
-        {
-          "address": "https://lcd-juno.itastakers.com",
-          "provider": "itastakers"
-        },
-        {
-          "address": "https://rest-juno.ecostake.com",
-          "provider": "ecostake"
-        },
-        {
-          "address": "https://api.juno.pupmos.network",
-          "provider": "PUPMØS"
-        },
-        {
-          "address": "https://lcd.junomint.com",
-          "provider": "EZStaking.io"
-        },
-        {
-          "address": "https://api-juno-ia.notional.ventures/",
-          "provider": "Notional"
-        }
-      ],
-      "grpc": [
-        {
-          "address": "35.243.205.230:9090",
-          "provider": "strangelove"
-        },
-        {
-          "address": "grpc-juno-ia.notional.ventures:443",
-          "provider": "Notional"
-        }
-      ]
+        "rpc": [
+            {
+                "address": "https://rpc-juno.whispernode.com",
+                "provider": " WhisperNode 🤐"
+            },
+            {
+                "address": "https://rpc-juno.itastakers.com",
+                "provider": "itastakers"
+            },
+            {
+                "address": "https://rpc-juno.ecostake.com",
+                "provider": "ecostake"
+            },
+            {
+                "address": "https://juno-rpc.polkachu.com",
+                "provider": "Polkachu"
+            },
+            {
+                "address": "https://rpc.juno.pupmos.network",
+                "provider": "PUPMØS"
+            },
+            {
+                "address": "https://rpc.junomint.com",
+                "provider": "EZStaking.io"
+            },
+            {
+                "address": "https://rpc-juno-ia.notional.ventures/",
+                "provider": "Notional"
+            },
+            {
+                "address": "https://rpc.juno.chaintools.tech/"
+            }
+        ],
+        "rest": [
+            {
+                "address": "https://lcd-juno.whispernode.com",
+                "provider": " WhisperNode 🤐"
+            },
+            {
+                "address": "https://lcd-juno.itastakers.com",
+                "provider": "itastakers"
+            },
+            {
+                "address": "https://rest-juno.ecostake.com",
+                "provider": "ecostake"
+            },
+            {
+                "address": "https://api.juno.pupmos.network",
+                "provider": "PUPMØS"
+            },
+            {
+                "address": "https://lcd.junomint.com",
+                "provider": "EZStaking.io"
+            },
+            {
+                "address": "https://api-juno-ia.notional.ventures/",
+                "provider": "Notional"
+            }
+        ],
+        "grpc": [
+            {
+                "address": "35.243.205.230:9090",
+                "provider": "strangelove"
+            },
+            {
+                "address": "grpc-juno-ia.notional.ventures:443",
+                "provider": "Notional"
+            },
+            {
+                "address": "grpc.juno.chaintools.tech:443",
+                "provider": "ChainTools"
+            }
+        ]
     },
     "explorers": [
-      {
-        "kind": "ping.pub",
-        "url": "https://ping.pub/juno",
-        "tx_page": "https://ping.pub/juno/tx/${txHash}"
-      },
-      {
-        "kind": "explorers.guru",
-        "url": "https://juno.explorers.guru",
-        "tx_page": "https://juno.explorers.guru/transaction/${txHash}"
-      },
-      {
-        "kind": "mintscan",
-        "url": "https://www.mintscan.io/juno",
-        "tx_page": "https://www.mintscan.io/juno/txs/{txHash}"
-      },
-      {
-        "kind": "atomscan",
-        "url": "https://atomscan.com/juno",
-        "tx_page": "https://atomscan.com/juno/transactions/${txHash}"
-      }
+        {
+            "kind": "ping.pub",
+            "url": "https://ping.pub/juno",
+            "tx_page": "https://ping.pub/juno/tx/${txHash}"
+        },
+        {
+            "kind": "explorers.guru",
+            "url": "https://juno.explorers.guru",
+            "tx_page": "https://juno.explorers.guru/transaction/${txHash}"
+        },
+        {
+            "kind": "mintscan",
+            "url": "https://www.mintscan.io/juno",
+            "tx_page": "https://www.mintscan.io/juno/txs/{txHash}"
+        },
+        {
+            "kind": "atomscan",
+            "url": "https://atomscan.com/juno",
+            "tx_page": "https://atomscan.com/juno/transactions/${txHash}"
+        }
     ]
-  }
+}
