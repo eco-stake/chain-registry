@@ -111,6 +111,10 @@
                 "address": "https://emoney.validator.network",
                 "provider": "e-Money"
             },
+	    {
+		"address": "https://rpc.emoney.badgerbite.xyz:443",
+                "provider": "BadgerBite"
+	    },
             {
                 "address": "https://rpc.emoney.ezstaking.io",
                 "provider": "EZStaking.io"
@@ -118,6 +122,10 @@
             {
                 "address": "https://rpc-emoney-ia.cosmosia.notional.ventures/",
                 "provider": "Notional"
+            },
+            {
+              "address": "https://rpc.emoney.freak12techno.io/",
+              "provider": "freak12techno"
             }
         ],
         "rest": [
@@ -136,6 +144,10 @@
             {
                 "address": "https://api-emoney-ia.cosmosia.notional.ventures/",
                 "provider": "Notional"
+            },
+            {
+              "address": "https://api.emoney.freak12techno.io/",
+              "provider": "freak12techno"
             }
         ],
         "grpc": [
