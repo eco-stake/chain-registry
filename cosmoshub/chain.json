@@ -213,6 +213,10 @@
                 "provider": "Polkachu"
             },
             {
+                "address": "https://rpc-cosmoshub.goldenratiostaking.net",
+                "provider": "Golden Ratio Staking"
+            }, 
+            {
                 "address": "https://rpc.cosmos.ezstaking.io",
                 "provider": "EZStaking.io"
             },
@@ -249,6 +253,10 @@
             {
                 "address": "https://api-cosmoshub-ia.cosmosia.notional.ventures/",
                 "provider": "Notional"
+            },
+            {
+                "address": "https://cosmos-api.polkachu.com",
+                "provider": "Polkachu"
             }
         ],
         "grpc": [
@@ -265,7 +273,7 @@
                 "provider": "Notional"
             },
             {
-                "address": "cosmos-grpc.polkachu.com:49090",
+                "address": "cosmos-grpc.polkachu.com:14990",
                 "provider": "Polkachu"
             }
         ]
