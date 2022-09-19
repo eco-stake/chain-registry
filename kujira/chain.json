@@ -5,6 +5,7 @@
     "pretty_name": "Kujira",
     "status": "live",
     "network_type": "mainnet",
+    "website": "https://kujira.app/",
     "bech32_prefix": "kujira",
     "genesis": {
         "genesis_url": "https://github.com/Team-Kujira/networks/raw/master/mainnet/kaiyo-1.json"
@@ -59,6 +60,10 @@
             {
                 "address": "https://kujira-rpc.wildsage.io",
                 "provider": "WildSage Labs"
+            },
+            {
+                "address": "https://rpc-kujira.nodeist.net",
+                "provider": "Nodeist"
             }
         ],
         "grpc": [
@@ -73,6 +78,10 @@
             {
                 "address": "kujira-grpc.polkachu.com:11890",
                 "provider": "Polkachu"
+            },
+            {
+                "address": "https://grpc-kujira.nodeist.net",
+                "provider": "Nodeist"
             }
         ],
         "rest": [
@@ -103,6 +112,10 @@
             {
                 "address": "https://kujira-lcd.wildsage.io/",
                 "provider": "WildSage Labs"
+            },
+            {
+                "address": "https://api-kujira.nodeist.net",
+                "provider": "Nodeist"
             }
         ]
     },
