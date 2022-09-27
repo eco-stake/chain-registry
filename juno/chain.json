@@ -149,6 +149,10 @@
       {
         "address": "https://juno-rpc.kleomed.es",
         "provider": "Kleomedes"
+      },
+      {
+        "address": "https://rpc.juno.silknodes.io/",
+        "provider": "Silk Nodes"
       }
     ],
     "rest": [
@@ -191,6 +195,10 @@
       {
         "address": "https://juno-api.kleomed.es",
         "provider": "Kleomedes"
+      },
+      {
+        "address": "https://api.juno.silknodes.io/",
+        "provider": "Silk Nodes"
       }
     ],
     "grpc": [
@@ -213,6 +221,10 @@
       {
         "address": "juno-grpc.polkachu.com:12690",
         "provider": "Polkachu"
+      },
+      {
+        "address": "https://grpc.juno.silknodes.io/",
+        "provider": "Silk Nodes"
       }
     ]
   },
