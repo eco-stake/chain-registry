@@ -25,14 +25,15 @@
   },
   "codebase": {
     "git_repo": "https://github.com/crescent-network/crescent",
-    "recommended_version": "v1.1.0",
+    "recommended_version": "v2.1.1",
     "compatible_versions": [
-      "v1.1.0"
+      "v2.1.0",
+      "v2.1.1"
     ],
     "binaries": {
-      "linux/amd64": "https://github.com/crescent-network/crescent/releases/download/v1.1.0/crescentd-v1.1.0-linux-amd64",
-      "darwin/amd64": "https://github.com/crescent-network/crescent/releases/download/v1.1.0/crescentd-v1.1.0-darwin-amd64"
-        }
+      "linux/amd64": "https://github.com/crescent-network/crescent/releases/download/v2.1.0/crescentd-v2.1.0-linux-amd64",
+      "darwin/amd64": "https://github.com/crescent-network/crescent/releases/download/v2.1.0/crescentd-v2.1.0-darwin-amd64"
+    }
   },
   "peers": {
     "seeds": [
@@ -104,11 +105,11 @@
         "provider": "Provalidator"
       },
       {
-         "id": "c64f03deb3127d41401ef57d9762c64673f225f3",
-         "address": "172.105.221.43:46656",
-         "provider": "in3s.com"
-       }
-     ]
+        "id": "c64f03deb3127d41401ef57d9762c64673f225f3",
+        "address": "172.105.221.43:46656",
+        "provider": "in3s.com"
+      }
+    ]
   },
   "apis": {
     "rpc": [
@@ -133,12 +134,20 @@
       {
         "address": "https://api.crescent.pupmos.network",
         "provider": "PUPMØS"
+      },
+      {
+        "address": "https://crescent-api.polkachu.com",
+        "provider": "Polkachu"
       }
     ],
     "grpc": [
       {
         "address": "mainnet.crescent.network:9090",
         "provider": "crescent"
+      },
+      {
+        "address": "crescent-grpc.polkachu.com:14590",
+        "provider": "Polkachu"
       }
     ]
   },
@@ -151,12 +160,17 @@
     {
       "kind": "ping.pub",
       "url": "https://ping.pub/crescent",
-      "tx_page": "https://ping.pub/crescent/tx/{txHash}"
+      "tx_page": "https://ping.pub/crescent/tx/${txHash}"
     },
     {
       "kind": "explorers.guru",
       "url": "https://crescent.explorers.guru",
       "tx_page": "https://crescent.explorers.guru/transaction/${txHash}"
+    },
+    {
+      "kind": "atomscan",
+      "url": "https://atomscan.com/crescent",
+      "tx_page": "https://atomscan.com/crescent/transactions/${txHash}"
     }
   ]
 }
