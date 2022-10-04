@@ -64,6 +64,11 @@
               "id": "20e1000e88125698264454a884812746c2eb4807",
               "address": "seeds.lavenderfive.com:17256",
               "provider": "Lavender.Five Nodes 🐝"
+            },
+            {
+              "id": "ebc272824924ea1a27ea3183dd0b9ba713494f83",
+              "address": "rebus.mainnet.seed.autostake.net:26906",
+              "provider": "AutoStake"
             }
         ]
     },
@@ -92,6 +97,10 @@
             {
                 "address": "https://rpc-rebus.nodeist.net",
                 "provider": "Nodeist"
+            },
+            {
+                "address": "https://rpc-rebus.d-stake.xyz",
+                "provider": "D-stake"
             }
         ],
         "rest": [
@@ -118,6 +127,10 @@
             {
                 "address": "https://api-rebus.nodeist.net",
                 "provider": "Nodeist"
+            },
+            {
+                "address": "https://api-rebus.d-stake.xyz",
+                "provider": "D-stake"
             }
         ],
         "grpc": [
@@ -132,6 +145,10 @@
             {
                 "address": "https://grpc-rebus.nodeist.net",
                 "provider": "Nodeist"
+            },
+            {
+                "address": "https://grpc-rebus.d-stake.xyz",
+                "provider": "D-stake"
             }
         ]
     },

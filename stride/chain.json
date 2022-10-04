@@ -53,6 +53,11 @@
         "id": "20e1000e88125698264454a884812746c2eb4807",
         "address": "seeds.lavenderfive.com:12256",
         "provider": "Lavender.Five Nodes 🐝"
+      },
+      {
+        "id": "ebc272824924ea1a27ea3183dd0b9ba713494f83",
+        "address": "stride.mainnet.seed.autostake.net:26886",
+        "provider": "AutoStake"
       }
     ],
     "persistent_peers": [
@@ -123,6 +128,10 @@
       {
         "address": "https://rpc.stride.nodestake.top",
         "provider": "NodeStake"
+      },
+      {
+        "address": "https://rpc-stride.d-stake.xyz",
+        "provider": "D-stake"
       }
     ],
     "rest": [
@@ -149,6 +158,10 @@
       {
         "address": "https://api.stride.nodestake.top",
         "provider": "NodeStake"
+      },
+      {
+        "address": "https://api-stride.d-stake.xyz",
+        "provider": "D-stake"
       }
     ],
     "grpc": [
@@ -171,6 +184,10 @@
       {
         "address": "http://grpc-stride.nodeist.net",
         "provider": "Nodeist"
+      },
+      {
+        "address": "https://grpc-stride.d-stake.xyz",
+        "provider": "D-stake"
       }
     ]
   },

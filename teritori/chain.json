@@ -9,7 +9,7 @@
   "node_home": "$HOME/.teritorid",
   "bech32_prefix": "tori",
   "genesis": {
-    "genesis_url": "https://github.com/TERITORI/teritori-mainnet-genesis/raw/main/genesis.json"
+    "genesis_url": "https://github.com/TERITORI/teritori-chain/raw/mainnet/mainnet/teritori-1/genesis.json"
   },
   "slip44": 118,
   "fees": {
@@ -31,9 +31,9 @@
   },
   "codebase": {
     "git_repo": "https://github.com/TERITORI/teritori-chain",
-    "recommended_version": "v1.0.0",
+    "recommended_version": "v1.1.2",
     "compatible_versions": [
-      "v1.0.0"
+      "v1.1.2"
     ]
   },
   "peers": {
@@ -70,6 +70,10 @@
        {
         "address": "https://rpc-teritori.nodeist.net",
         "provider": "Nodeist"
+      },
+      {
+        "address": "https://rpc.teritori.nodestake.top",
+        "provider": "NodeStake"
       }
     ],
     "rest": [
@@ -84,6 +88,10 @@
        {
         "address": "https://api-teritori.nodeist.net",
         "provider": "Nodeist"
+      },
+      {
+        "address": "https://api.teritori.nodestake.top",
+        "provider": "NodeStake"
       }
     ],
     "grpc": [
@@ -94,6 +102,10 @@
        {
         "address": "https://grpc-teritori.nodeist.net",
         "provider": "Nodeist"
+      },
+      {
+        "address": "https://grpc.teritori.nodestake.top",
+        "provider": "NodeStake"
       }
     ]
   },
@@ -110,7 +122,7 @@
     },
     {
       "kind": "Nodeist",
-      "url": "https://teritori.explorers.guru/",
+      "url": "https://exp.nodeist.net",
       "tx_page": "https://exp.nodeist.net/M-Teritori/tx/${txHash}"
     }
   ]
