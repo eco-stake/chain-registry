@@ -126,10 +126,6 @@
         "provider": "Lavender.Five Nodes 🐝"
       },
       {
-        "address": "https://passage-rpc.panthea.eu",
-        "provider": "Panthea EU"
-      },
-      {
         "address": "https://rpc-passage-ia.cosmosia.notional.ventures/",
         "provider": "Notional"
       },
@@ -140,6 +136,14 @@
       {
         "address": "https://passage-rpc.polkachu.com",
         "provider": "Polkachu"
+      },
+      {
+        "address": "https://passage-rpc.ibs.team/",
+        "provider": "Inter Blockchain Services"
+      },
+      {
+        "address": "https://rpc-passage.d-stake.xyz",
+        "provider": "D-stake"
       }
     ],
     "rest": [
@@ -160,10 +164,6 @@
         "provider": "Lavender.Five Nodes 🐝"
       },
       {
-        "address": "https://passage-api.panthea.eu",
-        "provider": "Panthea EU"
-      },
-      {
         "address": "https://api-passage-ia.cosmosia.notional.ventures/",
         "provider": "Notional"
       },
@@ -174,6 +174,14 @@
       {
         "address": "https://passage-api.polkachu.com",
         "provider": "Polkachu"
+      },
+      {
+        "address": "https://passage-api.ibs.team/",
+        "provider": "Inter Blockchain Services"
+      },
+      {
+        "address": "https://api-passage.d-stake.xyz",
+        "provider": "D-stake"
       }
     ],
     "grpc": [
@@ -192,6 +200,10 @@
       {
         "address": "https://grpc.passage.nodestake.top",
         "provider": "NodeStake"
+      },
+      {
+        "address": "https://grpc-passage.d-stake.xyz",
+        "provider": "D-stake"
       }
     ]
   },
