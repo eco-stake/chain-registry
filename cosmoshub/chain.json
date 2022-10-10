@@ -252,8 +252,8 @@
         "provider": "Kleomedes"
       },
       {
-        "address": "https://rpc.cosmos.silknodes.io",
-        "provider": "Silk Nodes"
+        "address": "https://rpc.cosmos.dragonstake.io",
+        "provider": "DragonStake"
       }
     ],
     "rest": [
@@ -310,8 +310,8 @@
         "provider": "Kleomedes"
       },
       {
-        "address": "https://api.cosmos.silknodes.io",
-        "provider": "Silk Nodes"
+        "address": "https://lcd.cosmos.dragonstake.io",
+        "provider": "DragonStake"
       }
     ],
     "grpc": [
@@ -342,6 +342,10 @@
       {
         "address": "https://grpc.cosmos.silknodes.io",
         "provider": "Silk Nodes"
+      },
+      {
+        "address": "https://grpc.cosmos.dragonstake.io",
+        "provider": "DragonStake"
       }
     ]
   },
