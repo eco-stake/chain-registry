@@ -131,7 +131,7 @@
         },
         {
             "kind": "ping.pub",
-            "url": "https://ping.pub/decentr/",
+            "url": "https://ping.pub/decentr",
             "tx_page": "https://ping.pub/decentr/tx/${txHash}"
         }
     ]
