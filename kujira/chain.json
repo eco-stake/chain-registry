@@ -118,7 +118,7 @@
         "provider": "kjnodes"
       },
       {
-        "address": "https://kuji-rpc.kleomed.es",
+        "address": "https://kuji-rpc.kleomedes.network",
         "provider": "Kleomedes"
       }
     ],
@@ -186,7 +186,7 @@
         "provider": "Inter Blockchain Services"
       },
       {
-        "address": "https://api-bitsong.starsquid.io",
+        "address": "https://api-kujira.starsquid.io",
         "provider": "Starsquid"
       },
       {
@@ -194,7 +194,7 @@
         "provider": "kjnodes"
       },
       {
-        "address": "https://kuji-api.kleomed.es",
+        "address": "https://kuji-api.kleomedes.network",
         "provider": "Kleomedes"
       }
     ]
@@ -217,8 +217,8 @@
     },
     {
       "kind": "Nodeist Explorer",
-      "url": "https://exp.nodeist.net/Kujira",
-      "tx_page": "https://exp.nodeist.net/Kujira/transactions/${txHash}"
+      "url": "https://exp.nodeist.net/M-Kujira",
+      "tx_page": "https://exp.nodeist.net/M-Kujira/transactions/${txHash}"
     }
   ],
   "logo_URIs": {
