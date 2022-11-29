@@ -12,6 +12,9 @@
   "key_algos": [
     "ethsecp256k1"
   ],
+  "extra_codecs": [
+    "ethermint"
+  ],
   "slip44": 60,
   "fees": {
     "fee_tokens": [
@@ -423,7 +426,8 @@
     {
       "kind": "mintscan",
       "url": "https://www.mintscan.io/evmos",
-      "tx_page": "https://www.mintscan.io/evmos/txs/${txHash}"
+      "tx_page": "https://www.mintscan.io/evmos/txs/${txHash}",
+      "account_page": "https://www.mintscan.io/evmos/account/${accountAddress}"
     },
     {
       "kind": "bigdipper",
