@@ -10,6 +10,10 @@
     "bech32_prefix"
   ],
   "properties": {
+    "$schema": {
+      "type": "string",
+      "pattern": "^\\.\\./chain\\.schema\\.json$"
+    },
     "chain_name": {
       "type": "string",
       "pattern": "[a-z0-9]+"
@@ -249,6 +253,12 @@
           }
         },
         "grpc": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/endpoint"
+          }
+        },
+        "grpc-web": {
           "type": "array",
           "items": {
             "$ref": "#/$defs/endpoint"
