@@ -137,7 +137,11 @@
       {
         "address": "https://rpc-bcna.kjinc.io/",
         "provider": "KJINC.io"
-      }
+      },
+      {
+        "address": "http://bitcanna.alkia.net:26657/",
+        "provider": "ALKIA.net"
+      }      
     ],
     "grpc": [
       {
