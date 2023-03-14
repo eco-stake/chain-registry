@@ -94,6 +94,10 @@
         "provider": "Nodeist"
       },
       {
+        "address": "https://rpc.c4e.hexskrt.net",
+        "provider": "Hexnodes"
+      },
+      {
         "address": "https://c4e.rpc.bccnodes.com",
         "provider": "BccNodes"
       }
@@ -124,6 +128,10 @@
         "provider": "Nodeist"
       },
       {
+        "address": "https://api-c4e.hexskrt.net",
+        "provider": "Hexnodes"
+      },
+      {
         "address": "https://c4e.api.bccnodes.com",
         "provider": "BccNodes"
       }
@@ -148,6 +156,10 @@
       {
         "address": "https://grpc-c4e.nodeist.net",
         "provider": "Nodeist"
+      },
+      {
+        "address": "https://grpc.c4e.hexskrt.net",
+        "provider": "Hexnodes"
       },
       {
         "address": "https://c4e.grpc.bccnodes.com:9090",
