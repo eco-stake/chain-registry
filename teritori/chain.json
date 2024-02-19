@@ -156,6 +156,10 @@
       {
         "address": "https://rpc-teritori.pupmos.network",
         "provider": "PUPMØS"
+      },
+      {
+        "address": "https://teritori.rpc.skynodejs.net",
+        "provider": "skynodejs"
       }
     ],
     "rest": [
@@ -222,6 +226,10 @@
       {
         "address": "https://api-teritori.pupmos.network",
         "provider": "PUPMØS"
+      },
+      {
+        "address": "https://teritori.api.skynodejs.net",
+        "provider": "skynodejs"
       }
     ],
     "grpc": [
@@ -264,6 +272,10 @@
       {
         "address": "https://grpc.teritori.silknodes.io/",
         "provider": "Silk Nodes"
+      },
+      {
+        "address": "https://teritori.grpc.skynodejs.net:9520",
+        "provider": "skynodejs"
       }
     ]
   },
