@@ -139,6 +139,10 @@
       {
         "address": "https://rpc-kujira.huginn.tech",
         "provider": "Huginn"
+      },
+       {
+        "address": "https://kujira.rpc.skynodejs.net",
+        "provider": "skynodejs"
       }
     ],
     "grpc": [
@@ -161,6 +165,10 @@
       {
         "address": "https://grpc-kujira.nodeist.net",
         "provider": "Nodeist"
+      },
+        {
+        "address": "https://kujira.grpc.skynodejs.net:9690",
+        "provider": "skynodejs"
       }
     ],
     "rest": [
@@ -223,6 +231,10 @@
       {
         "address": "https://kujira-mainnet-lcd-autostake.net:443",
         "provider": "AutoStake 🛡️ Slash Protected"
+      },
+       {
+        "address": "https://kujira.api.skynodejs.net/",
+        "provider": "skynodejs"
       }
     ]
   },
