@@ -160,6 +160,11 @@
         "id": "f85f57bd852fd460bc99628444df26c45e02e95a",
         "address": "95.214.55.138:29656",
         "provider": "genznodes"
+      },
+      {
+        "id": "f9c69c5ab02af3af6d4781aff585db26604fe9b4",
+        "address": "rpc.quasar.indonode.net:18656",
+        "provider": "Indonode"
       }
     ]
   },
@@ -216,6 +221,10 @@
       {
         "address": "https://quasar-rpc.genznodes.dev",
         "provider": "genznodes"
+      },
+      {
+        "address": "https://rpc.quasar.indonode.ner",
+        "provider": "Indonode"
       }
     ],
     "rest": [
@@ -270,6 +279,10 @@
       {
         "address": "https://quasar-api.genznodes.dev",
         "provider": "genznodes"
+      },
+      {
+        "address": "https://api.quasar.indonode.net",
+        "provider": "Indonode"
       }
     ],
     "grpc": [
@@ -308,6 +321,10 @@
       {
         "address": "quasar-grpc.genznodes.dev:29090",
         "provider": "genznodes"
+      },
+      {
+        "address": "grpc.quasar.indonode.net:18090",
+        "provider": "Indonode"
       }
     ]
   },
