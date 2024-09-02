@@ -128,6 +128,10 @@
       {
         "address": "https://lava-rpc.publicnode.com:443",
         "provider": "Allnodes ⚡️ Nodes & Staking"
+      },
+      {
+        "address": "https://lava.rpc.skynodejs.net",
+        "provider": "skynodejs"
       }
     ],
     "rest": [
@@ -150,6 +154,10 @@
       {
         "address": "https://lava-rest.publicnode.com",
         "provider": "Allnodes ⚡️ Nodes & Staking"
+      },
+      {
+        "address": "https://lava.api.skynodejs.net",
+        "provider": "skynodejs"
       }
     ],
     "grpc": [
